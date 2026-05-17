@@ -6,13 +6,7 @@
 </div>
 
 <div align="center">
-
-[![Pix](https://img.shields.io/badge/PIX-AI%20companion-33f5c5?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE/pix)
-[![Fullstack](https://img.shields.io/badge/FULLSTACK-web%20to%20infra-9b7cff?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE)
-[![Web3](https://img.shields.io/badge/CRYPTO%20%2F%20WEB3-onchain%20systems-ffd166?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE)
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-agent%20ops-ff5ca8?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE)
-[![AX](https://img.shields.io/badge/AX-business%20automation-33f5c5?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE)
-
+  <img src="./assets/loadout-badges.svg" alt="METHEZONE loadout badges" width="100%" />
 </div>
 
 ```txt
@@ -58,26 +52,14 @@ TASTE      playful interfaces, useful weirdness, game-feel software
 
 ## FEATURED SAVE FILES
 
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/METHEZONE/pix">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=METHEZONE&repo=pix&theme=tokyonight&hide_border=true&bg_color=071018&title_color=33f5c5&text_color=c7fff5&icon_color=ffd166" alt="Pix pinned repo card" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/METHEZONE/ychack">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=METHEZONE&repo=ychack&theme=tokyonight&hide_border=true&bg_color=071018&title_color=ff5ca8&text_color=c7fff5&icon_color=ffd166" alt="ychack pinned repo card" />
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/save-files.svg" alt="Featured save files: Pix and ychack" width="100%" />
+</div>
 
 ## PLAYER STATS
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=METHEZONE&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071018&title_color=33f5c5&text_color=c7fff5&icon_color=ffd166" alt="METHEZONE GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=METHEZONE&layout=compact&theme=tokyonight&hide_border=true&bg_color=071018&title_color=ff5ca8&text_color=c7fff5" alt="METHEZONE top languages" />
+  <img src="./assets/player-stats.svg" alt="METHEZONE player stats" width="100%" />
 </div>
 
 ## CONTRIBUTION DUNGEON
@@ -90,17 +72,9 @@ TASTE      playful interfaces, useful weirdness, game-feel software
 
 ## CONTACT PORTALS
 
-<p align="center">
-  <a href="https://www.instagram.com/minthezone/">
-    <img src="https://img.shields.io/badge/@minthezone-Instagram-ff5ca8?style=for-the-badge&logo=instagram&logoColor=white&labelColor=071018" alt="@minthezone on Instagram" />
-  </a>
-  <a href="https://www.instagram.com/i.minthezone/">
-    <img src="https://img.shields.io/badge/@i.minthezone-Instagram-9b7cff?style=for-the-badge&logo=instagram&logoColor=white&labelColor=071018" alt="@i.minthezone on Instagram" />
-  </a>
-  <a href="https://www.instagram.com/thezonebio/">
-    <img src="https://img.shields.io/badge/@thezonebio-Instagram-33f5c5?style=for-the-badge&logo=instagram&logoColor=071018&labelColor=071018" alt="@thezonebio on Instagram" />
-  </a>
-</p>
+<div align="center">
+  <img src="./assets/contact-portals.svg" alt="Contact portals: @minthezone, @i.minthezone, @thezonebio" width="100%" />
+</div>
 
 ```txt
 NEXT STAGE: build every layer, make it feel alive, and ship the strange useful thing.
