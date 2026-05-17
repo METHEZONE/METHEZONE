@@ -1,0 +1,166 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">METHEZONE pixel game world</title>
+  <desc id="desc">A neon pixel-art game HUD for the METHEZONE GitHub profile with floating Pix companions, code blocks, portals, and quest panels.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1026"/>
+      <stop offset="0.46" stop-color="#11213f"/>
+      <stop offset="1" stop-color="#0a1716"/>
+    </linearGradient>
+    <linearGradient id="platform" x1="78" y1="452" x2="1126" y2="532" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#33f5c5"/>
+      <stop offset="0.31" stop-color="#ffd166"/>
+      <stop offset="0.66" stop-color="#ff5ca8"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.2 0 0 0 0 0.93 0 0 0 0 0.8 0 0 0 0.8 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="pinkGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 1 0 0 0 0 0.25 0 0 0 0 0.62 0 0 0 0.85 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#4be8d1" stroke-opacity=".14" stroke-width="2"/>
+    </pattern>
+    <style>
+      .pixel { shape-rendering: crispEdges; }
+      .hud { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .small { font-size: 22px; letter-spacing: 1px; }
+      .compact { font-size: 19px; letter-spacing: .5px; }
+      .tiny { font-size: 16px; letter-spacing: .5px; }
+      .label { fill: #c7fff5; }
+      .muted { fill: #86a6b9; }
+      .yellow { fill: #ffd166; }
+      .green { fill: #33f5c5; }
+      .pink { fill: #ff5ca8; }
+      .purple { fill: #9b7cff; }
+      @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-16px); } }
+      @keyframes drift { 0%,100% { transform: translateX(0); } 50% { transform: translateX(22px); } }
+      @keyframes blink { 0%,70%,100% { opacity: 1; } 74%,82% { opacity: .3; } }
+      @keyframes scan { from { transform: translateY(-620px); } to { transform: translateY(620px); } }
+      @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+      .bob { animation: bob 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .bob2 { animation: bob 4.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .drift { animation: drift 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .blink { animation: blink 2.2s steps(1) infinite; }
+      .pulse { animation: pulse 2.6s ease-in-out infinite; }
+      .scan { animation: scan 8s linear infinite; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="620" rx="28" fill="url(#sky)"/>
+  <rect x="0" y="0" width="1200" height="620" fill="url(#grid)"/>
+  <g opacity=".35">
+    <path d="M0 464H1200" stroke="#33f5c5" stroke-width="2"/>
+    <path d="M0 504H1200" stroke="#33f5c5" stroke-width="2" stroke-opacity=".5"/>
+    <path d="M98 620L342 344M284 620L476 344M470 620L610 344M650 620L744 344M836 620L878 344M1022 620L1012 344" stroke="#33f5c5" stroke-width="2" stroke-opacity=".42"/>
+  </g>
+
+  <g class="pixel" opacity=".96">
+    <rect x="86" y="392" width="1028" height="88" fill="#071018" stroke="url(#platform)" stroke-width="6"/>
+    <rect x="108" y="414" width="56" height="12" fill="#33f5c5"/>
+    <rect x="190" y="414" width="28" height="12" fill="#ffd166"/>
+    <rect x="248" y="414" width="96" height="12" fill="#ff5ca8"/>
+    <rect x="372" y="414" width="44" height="12" fill="#9b7cff"/>
+    <rect x="444" y="414" width="130" height="12" fill="#33f5c5"/>
+    <rect x="604" y="414" width="48" height="12" fill="#ffd166"/>
+    <rect x="684" y="414" width="122" height="12" fill="#ff5ca8"/>
+    <rect x="838" y="414" width="76" height="12" fill="#9b7cff"/>
+    <rect x="946" y="414" width="136" height="12" fill="#33f5c5"/>
+    <rect x="108" y="450" width="974" height="10" fill="#132336"/>
+  </g>
+
+  <g class="hud" filter="url(#glow)">
+    <rect x="64" y="54" width="1072" height="110" rx="12" fill="#071018" stroke="#33f5c5" stroke-width="3"/>
+    <text x="94" y="104" font-size="34" font-weight="800" fill="#f2fffb">METHEZONE</text>
+    <text x="94" y="138" class="compact green">LV. 42 // BUILDING PIX // AGENTS // BIO // OPS</text>
+    <text x="902" y="104" class="small yellow">HP 98%</text>
+    <rect x="990" y="86" width="112" height="24" fill="#203149" stroke="#ffd166" stroke-width="2"/>
+    <rect x="994" y="90" width="102" height="16" fill="#ffd166"/>
+    <text x="902" y="138" class="small pink">XP +999</text>
+  </g>
+
+  <g class="hud">
+    <rect x="76" y="198" width="308" height="160" rx="10" fill="#081521" stroke="#9b7cff" stroke-width="3"/>
+    <text x="104" y="238" class="small purple">ACTIVE QUESTS</text>
+    <text x="104" y="274" class="tiny label">[01] Build Pix memory</text>
+    <text x="104" y="302" class="tiny label">[02] Gamify daily life</text>
+    <text x="104" y="330" class="tiny label">[03] Ship useful weirdness</text>
+
+    <rect x="816" y="198" width="308" height="160" rx="10" fill="#081521" stroke="#33f5c5" stroke-width="3"/>
+    <text x="844" y="238" class="small green">LOADOUT</text>
+    <text x="844" y="274" class="tiny label">Swift / TypeScript / Solidity</text>
+    <text x="844" y="302" class="tiny label">OpenClaw / MCP / Agents</text>
+    <text x="844" y="330" class="tiny label">Product ops / AI UX / Bio</text>
+  </g>
+
+  <g class="bob pixel" filter="url(#pinkGlow)">
+    <rect x="536" y="196" width="128" height="128" rx="10" fill="#26112b" stroke="#ff5ca8" stroke-width="6"/>
+    <rect x="568" y="228" width="20" height="20" fill="#33f5c5"/>
+    <rect x="612" y="228" width="20" height="20" fill="#33f5c5"/>
+    <rect x="548" y="260" width="104" height="16" fill="#ff5ca8"/>
+    <rect x="568" y="292" width="64" height="12" fill="#ffd166"/>
+    <rect x="520" y="244" width="16" height="44" fill="#ff5ca8"/>
+    <rect x="664" y="244" width="16" height="44" fill="#ff5ca8"/>
+    <text x="538" y="356" class="hud small pink">PIX CORE</text>
+  </g>
+
+  <g class="drift pixel">
+    <g class="bob2" filter="url(#glow)">
+      <rect x="252" y="176" width="34" height="34" fill="#ffd166"/>
+      <rect x="262" y="186" width="6" height="6" fill="#071018"/>
+      <rect x="276" y="186" width="6" height="6" fill="#071018"/>
+      <rect x="266" y="202" width="14" height="4" fill="#071018"/>
+      <text x="234" y="232" class="hud tiny yellow">pix</text>
+    </g>
+  </g>
+  <g class="bob pixel" filter="url(#glow)">
+    <rect x="930" y="128" width="34" height="34" fill="#33f5c5"/>
+    <rect x="940" y="138" width="6" height="6" fill="#071018"/>
+    <rect x="954" y="138" width="6" height="6" fill="#071018"/>
+    <rect x="944" y="154" width="14" height="4" fill="#071018"/>
+    <text x="916" y="188" class="hud tiny green">pix</text>
+  </g>
+  <g class="bob2 pixel" filter="url(#pinkGlow)">
+    <rect x="1020" y="304" width="28" height="28" fill="#ff5ca8"/>
+    <rect x="1028" y="312" width="5" height="5" fill="#071018"/>
+    <rect x="1040" y="312" width="5" height="5" fill="#071018"/>
+    <rect x="1032" y="326" width="12" height="4" fill="#071018"/>
+    <text x="1006" y="358" class="hud tiny pink">pix</text>
+  </g>
+
+  <g class="pixel pulse" filter="url(#glow)">
+    <rect x="446" y="476" width="80" height="18" fill="#33f5c5"/>
+    <rect x="462" y="494" width="48" height="18" fill="#33f5c5"/>
+    <rect x="478" y="512" width="16" height="34" fill="#33f5c5"/>
+    <rect x="444" y="548" width="84" height="10" fill="#33f5c5"/>
+  </g>
+  <g class="pixel pulse" filter="url(#pinkGlow)">
+    <rect x="684" y="476" width="80" height="18" fill="#ff5ca8"/>
+    <rect x="700" y="494" width="48" height="18" fill="#ff5ca8"/>
+    <rect x="716" y="512" width="16" height="34" fill="#ff5ca8"/>
+    <rect x="682" y="548" width="84" height="10" fill="#ff5ca8"/>
+  </g>
+
+  <g class="hud">
+    <rect x="96" y="512" width="340" height="52" rx="8" fill="#071018" stroke="#ffd166" stroke-width="3"/>
+    <text x="118" y="546" class="small yellow">PRESS START TO BUILD</text>
+    <rect x="858" y="512" width="250" height="52" rx="8" fill="#071018" stroke="#ff5ca8" stroke-width="3"/>
+    <text x="888" y="546" class="small pink">NOW LOADING IDEAS</text>
+  </g>
+
+  <g class="scan" opacity=".18">
+    <rect x="0" y="0" width="1200" height="120" fill="#ffffff"/>
+  </g>
+  <rect x="8" y="8" width="1184" height="604" rx="22" stroke="#e6fff9" stroke-opacity=".35" stroke-width="4"/>
+</svg>
