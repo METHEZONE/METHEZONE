@@ -132,11 +132,11 @@
     <text x="916" y="188" class="hud tiny green">pix</text>
   </g>
   <g class="bob2 pixel" filter="url(#pinkGlow)">
-    <rect x="1020" y="304" width="28" height="28" fill="#ff5ca8"/>
-    <rect x="1028" y="312" width="5" height="5" fill="#071018"/>
-    <rect x="1040" y="312" width="5" height="5" fill="#071018"/>
-    <rect x="1032" y="326" width="12" height="4" fill="#071018"/>
-    <text x="1006" y="358" class="hud tiny pink">pix</text>
+    <rect x="1062" y="344" width="28" height="28" fill="#ff5ca8"/>
+    <rect x="1070" y="352" width="5" height="5" fill="#071018"/>
+    <rect x="1082" y="352" width="5" height="5" fill="#071018"/>
+    <rect x="1074" y="366" width="12" height="4" fill="#071018"/>
+    <text x="1050" y="394" class="hud tiny pink">pix</text>
   </g>
 
   <g class="pixel pulse" filter="url(#glow)">
@@ -155,11 +155,11 @@
   <g class="hud">
     <rect x="96" y="512" width="340" height="52" rx="8" fill="#071018" stroke="#ffd166" stroke-width="3"/>
     <text x="118" y="546" class="small yellow">PRESS START TO BUILD</text>
-    <rect x="858" y="512" width="250" height="52" rx="8" fill="#071018" stroke="#ff5ca8" stroke-width="3"/>
-    <text x="888" y="546" class="small pink">NOW LOADING IDEAS</text>
+    <rect x="834" y="512" width="290" height="52" rx="8" fill="#071018" stroke="#ff5ca8" stroke-width="3"/>
+    <text x="864" y="546" class="small pink">NOW LOADING IDEAS</text>
   </g>
 
-  <g class="scan" opacity=".18">
+  <g class="scan" opacity=".1">
     <rect x="0" y="0" width="1200" height="120" fill="#ffffff"/>
   </g>
   <rect x="8" y="8" width="1184" height="604" rx="22" stroke="#e6fff9" stroke-opacity=".35" stroke-width="4"/>
