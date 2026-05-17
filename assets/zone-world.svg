@@ -117,11 +117,11 @@
 
   <g class="drift pixel">
     <g class="bob2" filter="url(#glow)">
-      <rect x="252" y="176" width="34" height="34" fill="#ffd166"/>
-      <rect x="262" y="186" width="6" height="6" fill="#071018"/>
-      <rect x="276" y="186" width="6" height="6" fill="#071018"/>
-      <rect x="266" y="202" width="14" height="4" fill="#071018"/>
-      <text x="234" y="232" class="hud tiny yellow">pix</text>
+      <rect x="426" y="214" width="34" height="34" fill="#ffd166"/>
+      <rect x="436" y="224" width="6" height="6" fill="#071018"/>
+      <rect x="450" y="224" width="6" height="6" fill="#071018"/>
+      <rect x="440" y="240" width="14" height="4" fill="#071018"/>
+      <text x="408" y="270" class="hud tiny yellow">pix</text>
     </g>
   </g>
   <g class="bob pixel" filter="url(#glow)">
@@ -159,7 +159,7 @@
     <text x="864" y="546" class="small pink">NOW LOADING IDEAS</text>
   </g>
 
-  <g class="scan" opacity=".1">
+  <g class="scan" opacity=".05">
     <rect x="0" y="0" width="1200" height="120" fill="#ffffff"/>
   </g>
   <rect x="8" y="8" width="1184" height="604" rx="22" stroke="#e6fff9" stroke-opacity=".35" stroke-width="4"/>
