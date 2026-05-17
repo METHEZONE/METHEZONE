@@ -1,5 +1,5 @@
 <h1 align="center">METHEZONE ARCADE</h1>
-<p align="center"><strong>cute agents, gamified life systems, and strange useful software</strong></p>
+<p align="center"><strong>AX, fullstack, web, AI, crypto, web3, and every weird edge of software</strong></p>
 
 <div align="center">
   <img src="./assets/zone-world.svg" alt="METHEZONE pixel game world" width="100%" />
@@ -8,16 +8,18 @@
 <div align="center">
 
 [![Pix](https://img.shields.io/badge/PIX-AI%20companion-33f5c5?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE/pix)
+[![Fullstack](https://img.shields.io/badge/FULLSTACK-web%20to%20infra-9b7cff?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE)
+[![Web3](https://img.shields.io/badge/CRYPTO%20%2F%20WEB3-onchain%20systems-ffd166?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-agent%20ops-ff5ca8?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE)
-[![THE ZONE](https://img.shields.io/badge/THE%20ZONE-making%20the%20zone-ffd166?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE)
+[![AX](https://img.shields.io/badge/AX-business%20automation-33f5c5?style=for-the-badge&labelColor=071018)](https://github.com/METHEZONE)
 
 </div>
 
 ```txt
 PLAYER: METHEZONE
-CLASS : product-minded agent builder
-ZONE  : cute AI companions, gamified life systems, e-commerce ops, bio projects
-MODE  : ship strange things until they become useful
+CLASS : fullstack AX / AI / web3 builder
+RANGE : web apps, agents, automation, crypto, infra, product systems
+MODE  : build across the whole stack until the idea becomes real
 ```
 
 <div align="center">
@@ -29,9 +31,9 @@ MODE  : ship strange things until they become useful
 | Quest | Status | Loot |
 | --- | --- | --- |
 | Build Pix into a friendly memory companion | `in progress` | Swift, agents, personal OS |
-| Make daily life feel like a game | `active` | streaks, quests, ambient AI |
-| Turn messy operations into clean dashboards | `active` | commerce, automation, admin tools |
-| Prototype fast, keep the soul weird | `always on` | MCP, OpenClaw, product taste |
+| Ship fullstack products end to end | `active` | web, infra, payments, databases |
+| Turn business mess into AX systems | `active` | automation, dashboards, operations |
+| Explore AI, crypto, and web3 edges | `always on` | agents, onchain systems, experiments |
 
 ## PARTY MEMBERS
 
@@ -39,15 +41,18 @@ MODE  : ship strange things until they become useful
 | --- | --- | --- |
 | `Pix` | AI companion | remembers the useful bits and turns them into quests |
 | `OpenClaw agents` | server-side crew | run background missions while the player sleeps |
+| `AX systems` | business automation layer | connects tools, data, workflows, and decisions |
+| `web3 builds` | onchain experiment zone | turns tokens, wallets, and protocols into products |
 | `THE ZONE BIO` | real-world product line | brings experiments into customers' hands |
-| `METHEZONE` | player one | connects the weird idea to the working system |
+| `METHEZONE` | player one | builds across the whole dev map |
 
 ## TECH INVENTORY
 
 ```txt
+RANGE      AX / fullstack / web / AI / crypto / web3
 LANGS      Swift / TypeScript / JavaScript / Python / Solidity
-SYSTEMS    MCP / agent workflows / GitHub Actions / Vercel / Supabase
-BUILDS     iOS companions / dashboards / checkout flows / automation tools
+SYSTEMS    agents / MCP / APIs / wallets / Vercel / Supabase / automations
+BUILDS     apps / dashboards / checkout flows / AI companions / onchain tools
 TASTE      playful interfaces, useful weirdness, game-feel software
 ```
 
@@ -98,5 +103,5 @@ TASTE      playful interfaces, useful weirdness, game-feel software
 </p>
 
 ```txt
-NEXT STAGE: make software that feels alive, helpful, and a little too fun.
+NEXT STAGE: build every layer, make it feel alive, and ship the strange useful thing.
 ```

@@ -1,6 +1,6 @@
 <svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">METHEZONE pixel game world</title>
-  <desc id="desc">A neon pixel-art game HUD for the METHEZONE GitHub profile with floating Pix companions, code blocks, portals, and quest panels.</desc>
+  <desc id="desc">A neon pixel-art game HUD for the METHEZONE GitHub profile with floating Pix companions, AX, fullstack, AI, crypto, web3, code blocks, portals, and quest panels.</desc>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="620" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0b1026"/>
@@ -83,7 +83,7 @@
   <g class="hud" filter="url(#glow)">
     <rect x="64" y="54" width="1072" height="110" rx="12" fill="#071018" stroke="#33f5c5" stroke-width="3"/>
     <text x="94" y="104" font-size="34" font-weight="800" fill="#f2fffb">METHEZONE</text>
-    <text x="94" y="138" class="compact green">LV. 42 // BUILDING PIX // AGENTS // BIO // OPS</text>
+    <text x="94" y="138" class="compact green">LV. 42 // AX // FULLSTACK // WEB // AI // CRYPTO // WEB3</text>
     <text x="902" y="104" class="small yellow">HP 98%</text>
     <rect x="990" y="86" width="112" height="24" fill="#203149" stroke="#ffd166" stroke-width="2"/>
     <rect x="994" y="90" width="102" height="16" fill="#ffd166"/>
@@ -99,9 +99,9 @@
 
     <rect x="816" y="198" width="308" height="160" rx="10" fill="#081521" stroke="#33f5c5" stroke-width="3"/>
     <text x="844" y="238" class="small green">LOADOUT</text>
-    <text x="844" y="274" class="tiny label">Swift / TypeScript / Solidity</text>
-    <text x="844" y="302" class="tiny label">OpenClaw / MCP / Agents</text>
-    <text x="844" y="330" class="tiny label">Product ops / AI UX / Bio</text>
+    <text x="844" y="274" class="tiny label">Fullstack / web / infra</text>
+    <text x="844" y="302" class="tiny label">AI agents / AX systems</text>
+    <text x="844" y="330" class="tiny label">Crypto / wallets / web3</text>
   </g>
 
   <g class="bob pixel" filter="url(#pinkGlow)">
