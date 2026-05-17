@@ -49,17 +49,53 @@
       @keyframes blink { 0%,70%,100% { opacity: 1; } 74%,82% { opacity: .3; } }
       @keyframes scan { from { transform: translateY(-620px); } to { transform: translateY(620px); } }
       @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+      @keyframes twinkle { 0%,100% { opacity: .15; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.25); } }
+      @keyframes codefall { from { transform: translateY(-170px); opacity: 0; } 15% { opacity: .95; } 85% { opacity: .95; } to { transform: translateY(420px); opacity: 0; } }
+      @keyframes chiprun { 0%,100% { transform: translateX(0); } 50% { transform: translateX(86px); } }
+      @keyframes orbit { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes wiggle { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(10deg); } }
+      @keyframes armSwing { 0%,100% { transform: rotate(-9deg); } 50% { transform: rotate(13deg); } }
+      @keyframes eyeMove { 0%,100% { transform: translate(0, 0); } 35% { transform: translate(4px, -1px); } 70% { transform: translate(-3px, 2px); } }
+      @keyframes blushPop { 0%,45%,100% { opacity: .08; } 60%,78% { opacity: .85; } }
+      @keyframes bubblePop { 0%,100% { opacity: .65; transform: translateY(0) scale(.96); } 45% { opacity: 1; transform: translateY(-8px) scale(1); } }
+      @keyframes portal { 0%,100% { stroke-dashoffset: 0; opacity: .45; } 50% { stroke-dashoffset: 38; opacity: 1; } }
       .bob { animation: bob 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
       .bob2 { animation: bob 4.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
       .drift { animation: drift 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
       .blink { animation: blink 2.2s steps(1) infinite; }
       .pulse { animation: pulse 2.6s ease-in-out infinite; }
       .scan { animation: scan 8s linear infinite; }
+      .twinkle { animation: twinkle 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .fallA { animation: codefall 6.8s linear infinite; }
+      .fallB { animation: codefall 8.5s linear infinite; animation-delay: -3.5s; }
+      .fallC { animation: codefall 7.4s linear infinite; animation-delay: -1.8s; }
+      .chiprun { animation: chiprun 7s ease-in-out infinite; }
+      .orbit { animation: orbit 9s linear infinite; transform-box: fill-box; transform-origin: center; }
+      .wiggle { animation: wiggle 2.1s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .armL { animation: armSwing 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .armR { animation: armSwing 1.8s ease-in-out infinite reverse; transform-box: fill-box; transform-origin: center; }
+      .eyeMove { animation: eyeMove 4.4s ease-in-out infinite; }
+      .blushLive { animation: blushPop 3.2s ease-in-out infinite; }
+      .bubblePop { animation: bubblePop 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .portal { animation: portal 3.4s linear infinite; stroke-dasharray: 14 10; }
     </style>
   </defs>
 
   <rect width="1200" height="620" rx="28" fill="url(#sky)"/>
   <rect x="0" y="0" width="1200" height="620" fill="url(#grid)"/>
+  <g filter="url(#glow)">
+    <circle class="twinkle" cx="176" cy="184" r="4" fill="#ffd166"/>
+    <circle class="twinkle" cx="284" cy="92" r="3" fill="#33f5c5" style="animation-delay:-.8s"/>
+    <circle class="twinkle" cx="430" cy="178" r="5" fill="#ff5ca8" style="animation-delay:-1.4s"/>
+    <circle class="twinkle" cx="742" cy="186" r="4" fill="#33f5c5" style="animation-delay:-2s"/>
+    <circle class="twinkle" cx="1048" cy="92" r="5" fill="#ffd166" style="animation-delay:-1.1s"/>
+    <circle class="twinkle" cx="1120" cy="286" r="3" fill="#ff5ca8" style="animation-delay:-.3s"/>
+  </g>
+  <g class="hud tiny" opacity=".72">
+    <text class="fallA green" x="28" y="0">AX API AI WEB3</text>
+    <text class="fallB pink" x="410" y="0">wallet agent build ship</text>
+    <text class="fallC yellow" x="1032" y="0">fullstack crypto ops</text>
+  </g>
   <g opacity=".35">
     <path d="M0 464H1200" stroke="#33f5c5" stroke-width="2"/>
     <path d="M0 504H1200" stroke="#33f5c5" stroke-width="2" stroke-opacity=".5"/>
@@ -83,7 +119,7 @@
   <g class="hud" filter="url(#glow)">
     <rect x="64" y="54" width="1072" height="110" rx="12" fill="#071018" stroke="#33f5c5" stroke-width="3"/>
     <text x="94" y="104" font-size="34" font-weight="800" fill="#f2fffb">METHEZONE</text>
-    <text x="94" y="138" class="compact green">LV. 42 // AX // FULLSTACK // WEB // AI // CRYPTO // WEB3</text>
+    <text x="94" y="138" class="compact green">LV. 42 // AX // FULLSTACK // AI // WEB3 // CRYPTO</text>
     <text x="902" y="104" class="small yellow">HP 98%</text>
     <rect x="990" y="86" width="112" height="24" fill="#203149" stroke="#ffd166" stroke-width="2"/>
     <rect x="994" y="90" width="102" height="16" fill="#ffd166"/>
@@ -104,15 +140,62 @@
     <text x="844" y="330" class="tiny label">Crypto / wallets / web3</text>
   </g>
 
-  <g class="bob pixel" filter="url(#pinkGlow)">
-    <rect x="536" y="196" width="128" height="128" rx="10" fill="#26112b" stroke="#ff5ca8" stroke-width="6"/>
-    <rect x="568" y="228" width="20" height="20" fill="#33f5c5"/>
-    <rect x="612" y="228" width="20" height="20" fill="#33f5c5"/>
-    <rect x="548" y="260" width="104" height="16" fill="#ff5ca8"/>
-    <rect x="568" y="292" width="64" height="12" fill="#ffd166"/>
-    <rect x="520" y="244" width="16" height="44" fill="#ff5ca8"/>
-    <rect x="664" y="244" width="16" height="44" fill="#ff5ca8"/>
-    <text x="538" y="356" class="hud small pink">PIX CORE</text>
+  <g class="bob" filter="url(#pinkGlow)">
+    <g transform="translate(506 176) scale(1.28)">
+      <ellipse cx="70" cy="126" rx="48" ry="9" fill="#071018" opacity=".45"/>
+      <ellipse cx="57" cy="114" rx="10" ry="12" fill="#a855f7"/>
+      <ellipse cx="83" cy="114" rx="10" ry="12" fill="#a855f7"/>
+      <ellipse class="armL" cx="28" cy="82" rx="10" ry="16" fill="#c084fc" transform="rotate(-30 28 82)"/>
+      <ellipse class="armR" cx="112" cy="82" rx="10" ry="16" fill="#c084fc" transform="rotate(30 112 82)"/>
+      <ellipse cx="70" cy="82" rx="38" ry="34" fill="#c084fc"/>
+      <ellipse cx="70" cy="88" rx="22" ry="18" fill="#e9d5ff"/>
+      <g class="wiggle">
+        <ellipse cx="42" cy="28" rx="10" ry="14" fill="#a855f7" transform="rotate(-20 42 28)"/>
+        <ellipse cx="42" cy="28" rx="5" ry="8" fill="#e9d5ff" transform="rotate(-20 42 28)"/>
+      </g>
+      <g class="wiggle" style="animation-delay:-1s">
+        <ellipse cx="98" cy="28" rx="10" ry="14" fill="#a855f7" transform="rotate(20 98 28)"/>
+        <ellipse cx="98" cy="28" rx="5" ry="8" fill="#e9d5ff" transform="rotate(20 98 28)"/>
+      </g>
+      <circle cx="70" cy="52" r="36" fill="#c084fc"/>
+      <g class="blink">
+        <ellipse cx="57" cy="50" rx="11" ry="12" fill="#ffffff"/>
+        <ellipse cx="83" cy="50" rx="11" ry="12" fill="#ffffff"/>
+      </g>
+      <g class="eyeMove">
+        <circle cx="58" cy="51" r="6" fill="#4c1d95"/>
+        <circle cx="84" cy="51" r="6" fill="#4c1d95"/>
+        <circle cx="60" cy="48" r="2" fill="#ffffff"/>
+        <circle cx="86" cy="48" r="2" fill="#ffffff"/>
+      </g>
+      <path d="M 57 65 Q 70 78 83 65" stroke="#7e22ce" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <ellipse class="blushLive" cx="45" cy="62" rx="8" ry="5" fill="#f0abfc"/>
+      <ellipse class="blushLive" cx="95" cy="62" rx="8" ry="5" fill="#f0abfc" style="animation-delay:-.4s"/>
+    </g>
+    <g class="hud bubblePop">
+      <rect x="498" y="164" width="204" height="38" rx="10" fill="#071018" stroke="#ffd166" stroke-width="3"/>
+      <text x="518" y="189" class="tiny yellow">HEY, I'M PIX</text>
+    </g>
+    <g class="orbit" opacity=".9">
+      <circle cx="574" cy="256" r="88" stroke="#33f5c5" stroke-width="2" stroke-opacity=".35" fill="none"/>
+      <circle cx="660" cy="256" r="5" fill="#ffd166"/>
+      <circle cx="574" cy="168" r="4" fill="#33f5c5"/>
+      <circle cx="490" cy="282" r="4" fill="#ff5ca8"/>
+    </g>
+    <text x="524" y="356" class="hud small pink">PIX PARTY</text>
+  </g>
+
+  <g class="hud tiny" opacity=".95">
+    <g class="chiprun">
+      <rect x="258" y="372" width="84" height="26" rx="6" fill="#071018" stroke="#33f5c5" stroke-width="2"/>
+      <text x="273" y="391" class="green">AX</text>
+      <rect x="360" y="372" width="132" height="26" rx="6" fill="#071018" stroke="#9b7cff" stroke-width="2"/>
+      <text x="374" y="391" class="purple">FULLSTACK</text>
+      <rect x="510" y="372" width="70" height="26" rx="6" fill="#071018" stroke="#ffd166" stroke-width="2"/>
+      <text x="526" y="391" class="yellow">AI</text>
+      <rect x="598" y="372" width="112" height="26" rx="6" fill="#071018" stroke="#ff5ca8" stroke-width="2"/>
+      <text x="612" y="391" class="pink">WEB3</text>
+    </g>
   </g>
 
   <g class="drift pixel">
@@ -144,12 +227,14 @@
     <rect x="462" y="494" width="48" height="18" fill="#33f5c5"/>
     <rect x="478" y="512" width="16" height="34" fill="#33f5c5"/>
     <rect x="444" y="548" width="84" height="10" fill="#33f5c5"/>
+    <ellipse class="portal" cx="486" cy="512" rx="58" ry="86" stroke="#33f5c5" stroke-width="4" fill="none"/>
   </g>
   <g class="pixel pulse" filter="url(#pinkGlow)">
     <rect x="684" y="476" width="80" height="18" fill="#ff5ca8"/>
     <rect x="700" y="494" width="48" height="18" fill="#ff5ca8"/>
     <rect x="716" y="512" width="16" height="34" fill="#ff5ca8"/>
     <rect x="682" y="548" width="84" height="10" fill="#ff5ca8"/>
+    <ellipse class="portal" cx="724" cy="512" rx="58" ry="86" stroke="#ff5ca8" stroke-width="4" fill="none" style="animation-delay:-1.7s"/>
   </g>
 
   <g class="hud">
