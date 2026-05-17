@@ -1,3 +1,6 @@
+<h1 align="center">METHEZONE ARCADE</h1>
+<p align="center"><strong>cute agents, gamified life systems, and strange useful software</strong></p>
+
 <div align="center">
   <img src="./assets/zone-world.svg" alt="METHEZONE pixel game world" width="100%" />
 </div>
