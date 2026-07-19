@@ -62,6 +62,12 @@ TASTE      playful interfaces, useful weirdness, game-feel software
   <img src="./assets/player-stats.svg" alt="METHEZONE player stats" width="100%" />
 </div>
 
+## AI POWER METER
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/METHEZONE/METHEZONE/main/cards/ai-usage-full.svg" alt="METHEZONE AI coding usage" width="100%" />
+</div>
+
 ## CONTRIBUTION DUNGEON
 
 <picture>
