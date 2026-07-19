@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "macbook-main",
-  "updatedAt": "2026-07-19T14:34:37.800Z",
+  "updatedAt": "2026-07-19T14:37:01.810Z",
   "daily": [
     {
       "agent": "all",
@@ -4076,9 +4076,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 686828,
-      "cacheReadTokens": 35643150,
-      "inputTokens": 2066235,
+      "cacheCreationTokens": 702062,
+      "cacheReadTokens": 37443597,
+      "inputTokens": 2140287,
       "metadata": {
         "agents": [
           "claude",
@@ -4089,19 +4089,19 @@
       "modelBreakdowns": [
         {
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 26430464,
-          "cost": 27.260947,
-          "inputTokens": 2004339,
+          "cacheReadTokens": 27624960,
+          "cost": 28.447965,
+          "inputTokens": 2078379,
           "modelName": "gpt-5.6-sol",
-          "outputTokens": 134134
+          "outputTokens": 141453
         },
         {
-          "cacheCreationTokens": 518267,
-          "cacheReadTokens": 8261642,
-          "cost": 19.435189500000003,
-          "inputTokens": 1831,
+          "cacheCreationTokens": 533501,
+          "cacheReadTokens": 8867593,
+          "cost": 20.875985500000006,
+          "inputTokens": 1843,
           "modelName": "claude-fable-5",
-          "outputTokens": 93538
+          "outputTokens": 106424
         },
         {
           "cacheCreationTokens": 168561,
@@ -4126,28 +4126,28 @@
         "gpt-5.5",
         "gpt-5.6-sol"
       ],
-      "outputTokens": 245859,
+      "outputTokens": 266064,
       "period": "2026-07-19",
-      "totalCost": 49.02982975000002,
-      "totalTokens": 38643250
+      "totalCost": 51.65764375000001,
+      "totalTokens": 40553188
     }
   ],
   "totals": {
-    "cacheCreationTokens": 77983765,
-    "cacheReadTokens": 4705603345,
-    "inputTokens": 258732256,
-    "outputTokens": 23180621,
-    "totalCost": 4804.392136850002,
-    "totalTokens": 5065604082
+    "cacheCreationTokens": 77998999,
+    "cacheReadTokens": 4707403792,
+    "inputTokens": 258806308,
+    "outputTokens": 23200826,
+    "totalCost": 4807.019950850002,
+    "totalTokens": 5067514020
   },
   "tools": [
     [
       "Claude Code",
-      1873.7856979000007
+      1875.2264939000006
     ],
     [
       "Codex",
-      2930.1182477500015
+      2931.305265750001
     ],
     [
       "Gemini",
