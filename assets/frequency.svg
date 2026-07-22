@@ -1,0 +1,130 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">ZONE://FREQUENCY — now mixing</title>
+  <desc id="d">A DJ deck panel. A jog wheel spins on the left while an equalizer waveform pulses, playing the track ALIVENESS (extended mix), next stop Bali 2026.09.</desc>
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1200" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="1" stop-color="#0c0714"/>
+    </linearGradient>
+    <linearGradient id="eq" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f8dff"/>
+      <stop offset="0.5" stop-color="#8f7bff"/>
+      <stop offset="1" stop-color="#ff4d5e"/>
+    </linearGradient>
+    <filter id="soft4" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <style><![CDATA[
+      .mono { font-family: 'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace; }
+      .disp { font-family: -apple-system,'SF Pro Display','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif; }
+
+      .bar { transform-box: fill-box; transform-origin: center bottom; animation: eqb 0.94s ease-in-out infinite alternate; }
+      @keyframes eqb { from { transform: scaleY(0.18);} to { transform: scaleY(1);} }
+      .b0 { animation-delay: -0.00s;} .b1 { animation-delay: -0.31s;} .b2 { animation-delay: -0.62s;}
+      .b3 { animation-delay: -0.17s;} .b4 { animation-delay: -0.48s;} .b5 { animation-delay: -0.79s;}
+      .b6 { animation-delay: -0.10s;} .b7 { animation-delay: -0.55s;}
+
+      .wheel { animation: spin 3.2s linear infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes spin { to { transform: rotate(360deg);} }
+
+      .head { animation: head 24s linear infinite; }
+      @keyframes head { from { transform: translateX(0);} to { transform: translateX(690px);} }
+
+      .rec { animation: rec 1.2s steps(1,end) infinite; }
+      @keyframes rec { 0%,100% { opacity: 1;} 50% { opacity: 0.15;} }
+    ]]></style>
+  </defs>
+
+  <rect width="1200" height="250" fill="url(#bg4)"/>
+  <rect x="52" y="36" width="1096" height="178" rx="14" fill="#080b18" stroke="#1c2340" stroke-width="1"/>
+
+  <!-- jog wheel -->
+  <g transform="translate(150,125)">
+    <circle r="62" fill="#0a0d1f" stroke="#2c3560" stroke-width="1.5"/>
+    <g class="wheel">
+      <circle r="52" fill="none" stroke="#232c4e" stroke-width="1" stroke-dasharray="2 5"/>
+      <circle r="40" fill="none" stroke="#1c2340" stroke-width="10"/>
+      <line x1="0" y1="-52" x2="0" y2="-30" stroke="#ff4d5e" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <circle r="20" fill="#0d1226" stroke="url(#eq)" stroke-width="1.5"/>
+    <text y="4" text-anchor="middle" class="mono" font-size="9" letter-spacing="1" fill="#8b96bd">SIDE B</text>
+  </g>
+
+  <!-- header -->
+  <g class="mono" font-size="11" letter-spacing="2">
+    <circle class="rec" cx="256" cy="66" r="4" fill="#ff4d5e"/>
+    <text x="268" y="70" fill="#ff8296">NOW MIXING</text>
+    <text x="1120" y="70" text-anchor="end" fill="#59617e">128 BPM · KEY 8A · DECK 01</text>
+  </g>
+  <text x="256" y="100" class="disp" font-size="24" font-weight="800" letter-spacing="2" fill="#e8ecf8">ALIVENESS <tspan fill="#8b96bd" font-weight="400">(extended mix)</tspan></text>
+  <text x="256" y="122" class="mono" font-size="11" letter-spacing="2" fill="#59617e">DJ METHEZONE — NEXT VENUE: BALI · 2026.09 · JOURNEY BROADCAST LIVE</text>
+
+  <!-- equalizer -->
+  <g fill="url(#eq)">
+    <rect class="bar b0" x="256" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b3" x="271" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b6" x="286" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b1" x="301" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b4" x="316" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b7" x="331" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b2" x="346" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b5" x="361" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b1" x="376" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b6" x="391" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b0" x="406" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b4" x="421" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b2" x="436" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b7" x="451" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b3" x="466" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b5" x="481" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b0" x="496" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b6" x="511" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b1" x="526" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b4" x="541" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b7" x="556" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b2" x="571" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b5" x="586" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b3" x="601" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b0" x="616" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b6" x="631" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b4" x="646" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b1" x="661" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b7" x="676" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b5" x="691" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b2" x="706" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b0" x="721" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b3" x="736" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b6" x="751" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b1" x="766" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b4" x="781" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b2" x="796" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b7" x="811" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b5" x="826" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b0" x="841" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b6" x="856" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b3" x="871" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b1" x="886" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b7" x="901" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b4" x="916" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b2" x="931" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b5" x="946" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b0" x="961" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b3" x="976" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b6" x="991" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b1" x="1006" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b4" x="1021" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b7" x="1036" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b2" x="1051" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b5" x="1066" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b3" x="1081" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b0" x="1096" y="142" width="9" height="48" rx="2"/>
+    <rect class="bar b6" x="1111" y="142" width="9" height="48" rx="2"/>
+  </g>
+
+  <!-- progress -->
+  <line x1="256" y1="200" x2="1120" y2="200" stroke="#1c2340" stroke-width="2"/>
+  <g class="head">
+    <circle cx="256" cy="200" r="4" fill="#e8ecf8"/>
+    <circle cx="256" cy="200" r="9" fill="#e8ecf8" opacity="0.2" filter="url(#soft4)"/>
+  </g>
+</svg>

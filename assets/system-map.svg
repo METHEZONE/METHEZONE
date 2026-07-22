@@ -1,0 +1,157 @@
+<svg width="1200" height="584" viewBox="0 0 1200 584" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">ZONE://SYSTEM — orbital map</title>
+  <desc id="d">An orbital system map. THE ZONE core pulses at the center while ARCA, PIX, ZONEBRAIN, AGORA and ZONE BIO orbit around it.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1200" y2="584" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04060f"/>
+      <stop offset="1" stop-color="#0a0816"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f8dff"/>
+      <stop offset="1" stop-color="#ff4d5e"/>
+    </linearGradient>
+    <filter id="soft3" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <path id="ring1p" d="M600 285 m -125 0 a 125 125 0 1 0 250 0 a 125 125 0 1 0 -250 0"/>
+    <path id="ring2p" d="M600 285 m -180 0 a 180 180 0 1 0 360 0 a 180 180 0 1 0 -360 0"/>
+    <path id="ring3p" d="M600 285 m -235 0 a 235 235 0 1 0 470 0 a 235 235 0 1 0 -470 0"/>
+    <style><![CDATA[
+      .mono { font-family: 'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace; }
+      .disp { font-family: -apple-system,'SF Pro Display','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif; }
+
+      .spin1  { animation: s1 46s linear infinite; }
+      .spin1i { animation: s1i 46s linear infinite; }
+      @keyframes s1  { from { transform: rotate(-35deg);}  to { transform: rotate(325deg);} }
+      @keyframes s1i { from { transform: rotate(35deg);}   to { transform: rotate(-325deg);} }
+
+      .spin2  { animation: s2 68s linear infinite; }
+      .spin2i { animation: s2i 68s linear infinite; }
+      @keyframes s2  { from { transform: rotate(140deg);}  to { transform: rotate(-220deg);} }
+      @keyframes s2i { from { transform: rotate(-140deg);} to { transform: rotate(220deg);} }
+
+      .spin2b  { animation: s2b 68s linear infinite; }
+      .spin2bi { animation: s2bi 68s linear infinite; }
+      @keyframes s2b  { from { transform: rotate(320deg);}  to { transform: rotate(-40deg);} }
+      @keyframes s2bi { from { transform: rotate(-320deg);} to { transform: rotate(40deg);} }
+
+      .spin3  { animation: s3 92s linear infinite; }
+      .spin3i { animation: s3i 92s linear infinite; }
+      @keyframes s3  { from { transform: rotate(75deg);}  to { transform: rotate(435deg);} }
+      @keyframes s3i { from { transform: rotate(-75deg);} to { transform: rotate(-435deg);} }
+
+      .spin3b  { animation: s3b 92s linear infinite; }
+      .spin3bi { animation: s3bi 92s linear infinite; }
+      @keyframes s3b  { from { transform: rotate(255deg);}  to { transform: rotate(615deg);} }
+      @keyframes s3bi { from { transform: rotate(-255deg);} to { transform: rotate(-615deg);} }
+
+      .dash { animation: dash 30s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -160; } }
+
+      .pulse1 { animation: pulse 4s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      .pulse2 { animation: pulse 4s ease-out infinite; animation-delay: -2s; transform-box: fill-box; transform-origin: center; }
+      @keyframes pulse { from { transform: scale(0.3); opacity: 0.7;} to { transform: scale(2.6); opacity: 0;} }
+
+      .coreGlow { animation: coreG 4.5s ease-in-out infinite; }
+      @keyframes coreG { 0%,100% { opacity: 0.4;} 50% { opacity: 0.95;} }
+
+      .tw1,.tw2,.tw3 { animation: twk 4s ease-in-out infinite; }
+      .tw2 { animation-delay: -1.4s;} .tw3 { animation-delay: -2.6s;}
+      @keyframes twk { 0%,100% { opacity: 0.12;} 50% { opacity: 0.8;} }
+
+      .nodeGlow { animation: nodeG 2.6s ease-in-out infinite; }
+      @keyframes nodeG { 0%,100% { opacity: 0.3;} 50% { opacity: 0.85;} }
+    ]]></style>
+  </defs>
+
+  <rect width="1200" height="584" fill="url(#bg3)"/>
+
+  <g fill="#cdd8ff">
+    <circle class="tw1" cx="110" cy="90" r="1.3"/><circle class="tw2" cx="260" cy="470" r="1.1"/>
+    <circle class="tw3" cx="380" cy="70" r="1.2"/><circle class="tw1" cx="900" cy="480" r="1.2"/>
+    <circle class="tw2" cx="1050" cy="110" r="1.3"/><circle class="tw3" cx="1140" cy="330" r="1.1"/>
+    <circle class="tw1" cx="70" cy="320" r="1.1"/><circle class="tw2" cx="820" cy="60" r="1.2"/>
+  </g>
+
+  <g class="mono" font-size="11" letter-spacing="2" fill="#59617e">
+    <text x="70" y="54">ZONE://SYSTEM</text>
+    <text x="70" y="72" fill="#3c4463">ORBITAL MAP · 5 NODES ACTIVE</text>
+    <text x="1130" y="54" text-anchor="end">CORE TEMP: ALIVE</text>
+    <text x="1130" y="72" text-anchor="end" fill="#3c4463">SYNC: REALTIME</text>
+  </g>
+  <g stroke="#2c3560" stroke-width="1.5" fill="none">
+    <path d="M52 36 h16 M52 36 v16"/><path d="M1148 36 h-16 M1148 36 v16"/>
+    <path d="M52 548 h16 M52 548 v-16"/><path d="M1148 548 h-16 M1148 548 v-16"/>
+  </g>
+
+  <!-- orbit rings -->
+  <g fill="none" stroke="#1d2544">
+    <circle cx="600" cy="285" r="125" stroke-width="1" class="dash" stroke-dasharray="3 9"/>
+    <circle cx="600" cy="285" r="180" stroke-width="1" class="dash" stroke-dasharray="3 9" style="animation-direction: reverse;"/>
+    <circle cx="600" cy="285" r="235" stroke-width="1" class="dash" stroke-dasharray="3 9"/>
+  </g>
+
+  <!-- packets -->
+  <circle r="2" fill="#7ee2c3"><animateMotion dur="9s" repeatCount="indefinite"><mpath href="#ring1p"/></animateMotion></circle>
+  <circle r="2" fill="#ff8296"><animateMotion dur="13s" begin="-5s" repeatCount="indefinite"><mpath href="#ring2p"/></animateMotion></circle>
+  <circle r="2" fill="#9db4ff"><animateMotion dur="17s" begin="-3s" repeatCount="indefinite"><mpath href="#ring3p"/></animateMotion></circle>
+
+  <!-- core -->
+  <g transform="translate(600,285)">
+    <circle class="pulse1" r="46" fill="none" stroke="url(#core)" stroke-width="1.5"/>
+    <circle class="pulse2" r="46" fill="none" stroke="url(#core)" stroke-width="1.5"/>
+    <circle class="coreGlow" r="52" fill="url(#core)" opacity="0.5" filter="url(#soft3)"/>
+    <circle r="46" fill="#070a18" stroke="url(#core)" stroke-width="2"/>
+    <text y="-2" text-anchor="middle" class="disp" font-size="15" font-weight="800" letter-spacing="3" fill="#e8ecf8">THE ZONE</text>
+    <text y="16" text-anchor="middle" class="mono" font-size="9" letter-spacing="2" fill="#8b96bd">ALIVENESS CORE</text>
+  </g>
+
+  <!-- ring 1: ARCA -->
+  <g transform="translate(600,285)">
+    <g class="spin1"><g transform="translate(125,0)"><g class="spin1i">
+      <circle class="nodeGlow" r="18" fill="#ffd166" opacity="0.4" filter="url(#soft3)"/>
+      <circle r="9" fill="#0a0d1f" stroke="#ffd166" stroke-width="2"/>
+      <circle r="3" fill="#ffd166"/>
+      <text y="-18" text-anchor="middle" class="mono" font-size="12" font-weight="700" letter-spacing="2" fill="#ffd166">ARCA</text>
+      <text y="28" text-anchor="middle" class="mono" font-size="9" letter-spacing="1" fill="#8b96bd">ax companion · zer01ne winner</text>
+    </g></g></g>
+  </g>
+
+  <!-- ring 2: PIX + ZONEBRAIN -->
+  <g transform="translate(600,285)">
+    <g class="spin2"><g transform="translate(180,0)"><g class="spin2i">
+      <circle class="nodeGlow" r="15" fill="#c99bff" opacity="0.4" filter="url(#soft3)"/>
+      <circle r="8" fill="#0a0d1f" stroke="#c99bff" stroke-width="2"/>
+      <circle r="2.6" fill="#c99bff"/>
+      <text y="-16" text-anchor="middle" class="mono" font-size="11" font-weight="700" letter-spacing="2" fill="#c99bff">PIX</text>
+      <text y="26" text-anchor="middle" class="mono" font-size="9" letter-spacing="1" fill="#8b96bd">companion that remembers</text>
+    </g></g></g>
+    <g class="spin2b"><g transform="translate(180,0)"><g class="spin2bi">
+      <circle class="nodeGlow" r="15" fill="#9db4ff" opacity="0.4" filter="url(#soft3)"/>
+      <circle r="8" fill="#0a0d1f" stroke="#9db4ff" stroke-width="2"/>
+      <circle r="2.6" fill="#9db4ff"/>
+      <text y="-16" text-anchor="middle" class="mono" font-size="11" font-weight="700" letter-spacing="2" fill="#9db4ff">ZONEBRAIN</text>
+      <text y="26" text-anchor="middle" class="mono" font-size="9" letter-spacing="1" fill="#8b96bd">graphiti × neo4j memory</text>
+    </g></g></g>
+  </g>
+
+  <!-- ring 3: AGORA + ZONE BIO -->
+  <g transform="translate(600,285)">
+    <g class="spin3"><g transform="translate(235,0)"><g class="spin3i">
+      <circle class="nodeGlow" r="15" fill="#7ee2c3" opacity="0.4" filter="url(#soft3)"/>
+      <circle r="8" fill="#0a0d1f" stroke="#7ee2c3" stroke-width="2"/>
+      <circle r="2.6" fill="#7ee2c3"/>
+      <text y="-16" text-anchor="middle" class="mono" font-size="11" font-weight="700" letter-spacing="2" fill="#7ee2c3">AGORA</text>
+      <text y="26" text-anchor="middle" class="mono" font-size="9" letter-spacing="1" fill="#8b96bd">agent marketplace</text>
+    </g></g></g>
+    <g class="spin3b"><g transform="translate(235,0)"><g class="spin3bi">
+      <circle class="nodeGlow" r="15" fill="#ff9d76" opacity="0.4" filter="url(#soft3)"/>
+      <circle r="8" fill="#0a0d1f" stroke="#ff9d76" stroke-width="2"/>
+      <circle r="2.6" fill="#ff9d76"/>
+      <text y="-16" text-anchor="middle" class="mono" font-size="11" font-weight="700" letter-spacing="2" fill="#ff9d76">ZONE BIO</text>
+      <text y="26" text-anchor="middle" class="mono" font-size="9" letter-spacing="1" fill="#8b96bd">experiments → real world</text>
+    </g></g></g>
+  </g>
+
+  <text x="600" y="570" text-anchor="middle" class="mono" font-size="10" letter-spacing="3" fill="#3c4463">EVERY NODE ANSWERS THE SAME QUESTION — WHAT MAKES YOU FEEL ALIVE?</text>
+</svg>

@@ -1,74 +1,73 @@
-<h1 align="center">METHEZONE ARCADE</h1>
-<p align="center"><strong>AX, fullstack, web, AI, crypto, web3, and every weird edge of software</strong></p>
-
 <div align="center">
-  <img src="./assets/zone-world.svg" alt="METHEZONE pixel game world" width="100%" />
+  <img src="./assets/hero.svg" alt="ZONE://OS — THE ZONE boot screen" width="100%" />
 </div>
 
+<br/>
+
+<p align="center">
+  <em>Every system here answers one question —</em><br/>
+  <strong>what makes you feel alive?</strong>
+</p>
+
 <div align="center">
-  <img src="./assets/loadout-badges.svg" alt="METHEZONE loadout badges" width="100%" />
+  <img src="./assets/divider.svg" alt="" width="100%" />
 </div>
+
+## `ZONE://ORIGIN` — the signal
+
+In 2023, mid-flight, the feeling of being alive went quiet — and it never fully came back on its own.
+So I stopped waiting for it and started **engineering** it: coffee that locks you in, companions that remember everything, systems that keep entire companies awake.
+
+Every build since is the same experiment wearing a different interface.
+
+> 🔵 **blue** — the heart that went quiet.&nbsp;&nbsp;🔴 **red** — wanting everyone else's to stay loud.
+> That gradient is the whole operating system.
+
+## `ZONE://SYSTEM` — the orbit
+
+<div align="center">
+  <img src="./assets/system-map.svg" alt="Orbital map of THE ZONE system: ARCA, PIX, ZONEBRAIN, AGORA, ZONE BIO" width="100%" />
+</div>
+
+| Node | What it is | State |
+| --- | --- | --- |
+| **[ARCA](https://github.com/METHEZONE/arca)** | AX company companion — a character that lives in your company's Slack, desktop and phone, and becomes its brain | 🏆 `Hyundai ZER01NE Sprint '26 — winner` · deployed |
+| **AGORA** | agent marketplace — buy and sell agent harnesses like software used to be sold | `building` |
+| **ZONEBRAIN** | personal knowledge graph — Gmail, Calendar and Slack distilled into a bi-temporal Graphiti × Neo4j memory | `v0.3 · syncing` |
+| **[PIX](https://github.com/METHEZONE/pix)** | AI companion that remembers everything and gamifies your life | `alive` |
+| **THE ZONE BIO** | where the experiments become physical — [LOCK IN COFFEE](https://thezonebio.com) and the aliveness product line | `shipping` |
+
+## `ZONE://AGENT.ARCA` — currently running
+
+<div align="center">
+  <img src="./assets/arca-runner.svg" alt="ARCA running past milestones: ZER01NE, AGORA, ZONEBRAIN, PIX, LOCK-IN COFFEE, BALI" width="100%" />
+</div>
+
+ARCA is the thesis in one character: **AI should do the labor so humans can do the living.**
+It moved from capstone sketch → Hyundai ZER01NE Sprint final winner → a real company brain running inside a real company. It keeps running.
+
+## `ZONE://FREQUENCY` — side B
+
+<div align="center">
+  <img src="./assets/frequency.svg" alt="Now mixing: ALIVENESS (extended mix) — next venue Bali, 2026.09" width="100%" />
+</div>
+
+The same hands that write agents are learning to mix.
+**September 2026 the journey moves to Bali** — becoming a DJ and broadcasting the whole arc in public. The systems above run themselves; that's the point. They fund the frequency.
+
+## `ZONE://LOADOUT`
 
 ```txt
-PLAYER: METHEZONE
-CLASS : fullstack AX / AI / web3 builder
-RANGE : web apps, agents, automation, crypto, infra, product systems
-MODE  : build across the whole stack until the idea becomes real
+LANGS     Swift · TypeScript · Python · Solidity
+SYSTEMS   agents · MCP · Graphiti · Neo4j · Vercel · Supabase · onchain
+PRACTICE  build the whole stack, automate yourself out, keep only the aliveness
 ```
 
-<div align="center">
-  <img src="./assets/arcade-divider.svg" alt="METHEZONE arcade divider" width="100%" />
-</div>
-
-## CURRENT QUEST LOG
-
-| Quest | Status | Loot |
-| --- | --- | --- |
-| Build Pix into a friendly memory companion | `in progress` | Swift, agents, personal OS |
-| Ship fullstack products end to end | `active` | web, infra, payments, databases |
-| Turn business mess into AX systems | `active` | automation, dashboards, operations |
-| Explore AI, crypto, and web3 edges | `always on` | agents, onchain systems, experiments |
-
-## PARTY MEMBERS
-
-| Character | Role | Special Move |
-| --- | --- | --- |
-| `Pix` | AI companion | remembers the useful bits and turns them into quests |
-| `OpenClaw agents` | server-side crew | run background missions while the player sleeps |
-| `AX systems` | business automation layer | connects tools, data, workflows, and decisions |
-| `web3 builds` | onchain experiment zone | turns tokens, wallets, and protocols into products |
-| `THE ZONE BIO` | real-world product line | brings experiments into customers' hands |
-| `METHEZONE` | player one | builds across the whole dev map |
-
-## TECH INVENTORY
-
-```txt
-RANGE      AX / fullstack / web / AI / crypto / web3
-LANGS      Swift / TypeScript / JavaScript / Python / Solidity
-SYSTEMS    agents / MCP / APIs / wallets / Vercel / Supabase / automations
-BUILDS     apps / dashboards / checkout flows / AI companions / onchain tools
-TASTE      playful interfaces, useful weirdness, game-feel software
-```
-
-## FEATURED SAVE FILES
-
-<div align="center">
-  <img src="./assets/save-files.svg" alt="Featured save files: Pix and ychack" width="100%" />
-</div>
-
-## PLAYER STATS
-
-<div align="center">
-  <img src="./assets/player-stats.svg" alt="METHEZONE player stats" width="100%" />
-</div>
-
-## AI POWER METER
+## `ZONE://TELEMETRY`
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/METHEZONE/METHEZONE/main/cards/ai-usage-full.svg" alt="METHEZONE AI coding usage" width="100%" />
 </div>
-
-## CONTRIBUTION DUNGEON
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/METHEZONE/METHEZONE/output/github-snake-dark.svg" />
@@ -76,12 +75,19 @@ TASTE      playful interfaces, useful weirdness, game-feel software
   <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/METHEZONE/METHEZONE/output/github-snake.svg" />
 </picture>
 
-## CONTACT PORTALS
+## `ZONE://LINK` — open channel
+
+<p align="center">
+  <a href="https://x.com/minthezone"><code>x → @minthezone</code></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://instagram.com/i.minthezone"><code>ig → @i.minthezone</code></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://thezonebio.com"><code>web → thezonebio.com</code></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:me@thezonebio.com"><code>mail → me@thezonebio.com</code></a>
+</p>
 
 <div align="center">
-  <img src="./assets/contact-portals.svg" alt="Contact portals: @minthezone, @i.minthezone, @thezonebio" width="100%" />
+  <img src="./assets/divider.svg" alt="" width="100%" />
 </div>
 
-```txt
-NEXT STAGE: build every layer, make it feel alive, and ship the strange useful thing.
-```
+<p align="center">
+  <code>NEXT STAGE — automate the labor, broadcast the journey, stay loud.</code>
+</p>
