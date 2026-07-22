@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "macbook-main",
-  "updatedAt": "2026-07-21T00:37:55.835Z",
+  "updatedAt": "2026-07-22T01:06:48.627Z",
   "daily": [
     {
       "agent": "all",
@@ -4226,9 +4226,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 4693485,
-      "cacheReadTokens": 45405879,
-      "inputTokens": 582882,
+      "cacheCreationTokens": 5667751,
+      "cacheReadTokens": 79532690,
+      "inputTokens": 606055,
       "metadata": {
         "agents": [
           "claude",
@@ -4238,12 +4238,12 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 3386603,
-          "cacheReadTokens": 23531836,
-          "cost": 75.3582935,
-          "inputTokens": 277,
+          "cacheCreationTokens": 4360869,
+          "cacheReadTokens": 57621783,
+          "cost": 126.16146550000003,
+          "inputTokens": 477,
           "modelName": "claude-fable-5",
-          "outputTokens": 189823
+          "outputTokens": 280481
         },
         {
           "cacheCreationTokens": 0,
@@ -4263,11 +4263,11 @@
         },
         {
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 93696,
-          "cost": 0.32876800000000006,
-          "inputTokens": 44858,
+          "cacheReadTokens": 130560,
+          "cost": 0.4929650000000001,
+          "inputTokens": 67831,
           "modelName": "gpt-5.5",
-          "outputTokens": 1378
+          "outputTokens": 2075
         }
       ],
       "modelsUsed": [
@@ -4276,24 +4276,52 @@
         "gpt-5.5",
         "gpt-5.6-sol"
       ],
-      "outputTokens": 330561,
+      "outputTokens": 421916,
       "period": "2026-07-21",
-      "totalCost": 90.69680970000003,
-      "totalTokens": 51013350
+      "totalCost": 141.66417870000004,
+      "totalTokens": 86229288
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 169472,
+      "inputTokens": 70546,
+      "metadata": {
+        "agents": [
+          "hermes"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 169472,
+          "cost": 0.534456,
+          "inputTokens": 70546,
+          "modelName": "gpt-5.5",
+          "outputTokens": 2330
+        }
+      ],
+      "modelsUsed": [
+        "gpt-5.5"
+      ],
+      "outputTokens": 2330,
+      "period": "2026-07-22",
+      "totalCost": 0.534456,
+      "totalTokens": 243251
     }
   ],
   "totals": {
-    "cacheCreationTokens": 89114363,
-    "cacheReadTokens": 4872781315,
-    "inputTokens": 262020540,
-    "outputTokens": 24305638,
-    "totalCost": 5082.3818359000015,
-    "totalTokens": 5248327848
+    "cacheCreationTokens": 90088629,
+    "cacheReadTokens": 4907077598,
+    "inputTokens": 262114259,
+    "outputTokens": 24399323,
+    "totalCost": 5133.883660900002,
+    "totalTokens": 5283787037
   },
   "tools": [
     [
       "Claude Code",
-      2102.5935196
+      2154.0953446000003
     ],
     [
       "Codex",
