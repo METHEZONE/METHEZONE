@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "macbook-main",
-  "updatedAt": "2026-07-31T00:39:29.931Z",
+  "updatedAt": "2026-08-01T00:38:08.158Z",
   "daily": [
     {
       "agent": "all",
@@ -3166,12 +3166,11 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 6769,
-      "cacheReadTokens": 52334588,
-      "inputTokens": 3164263,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 52316544,
+      "inputTokens": 3152834,
       "metadata": {
         "agents": [
-          "claude",
           "codex",
           "hermes"
         ]
@@ -3184,24 +3183,15 @@
           "inputTokens": 3152834,
           "modelName": "gpt-5.5",
           "outputTokens": 173952
-        },
-        {
-          "cacheCreationTokens": 6769,
-          "cacheReadTokens": 18044,
-          "cost": 0.22342325,
-          "inputTokens": 11429,
-          "modelName": "claude-opus-4-8",
-          "outputTokens": 4598
         }
       ],
       "modelsUsed": [
-        "claude-opus-4-8",
         "gpt-5.5"
       ],
-      "outputTokens": 178550,
+      "outputTokens": 173952,
       "period": "2026-06-30",
-      "totalCost": 47.41263525,
-      "totalTokens": 55685777
+      "totalCost": 47.189212,
+      "totalTokens": 55644937
     },
     {
       "agent": "all",
@@ -4113,14 +4103,6 @@
           "outputTokens": 9153
         },
         {
-          "cacheCreationTokens": 0,
-          "cacheReadTokens": 44288,
-          "cost": 0.16180950000000002,
-          "inputTokens": 54109,
-          "modelName": "gpt-5.6-terra",
-          "outputTokens": 1031
-        },
-        {
           "cacheCreationTokens": 55196,
           "cacheReadTokens": 0,
           "cost": 0.138254,
@@ -4130,8 +4112,16 @@
         },
         {
           "cacheCreationTokens": 0,
+          "cacheReadTokens": 44288,
+          "cost": 0.1294476,
+          "inputTokens": 54109,
+          "modelName": "gpt-5.6-terra",
+          "outputTokens": 1031
+        },
+        {
+          "cacheCreationTokens": 0,
           "cacheReadTokens": 72960,
-          "cost": 0.042283999999999995,
+          "cost": 0.008456799999999999,
           "inputTokens": 29978,
           "modelName": "gpt-5.6-luna",
           "outputTokens": 835
@@ -4146,7 +4136,7 @@
       ],
       "outputTokens": 21089,
       "period": "2026-07-22",
-      "totalCost": 4.468869499999999,
+      "totalCost": 4.4026803999999995,
       "totalTokens": 2664607
     },
     {
@@ -4444,24 +4434,61 @@
       "period": "2026-07-30",
       "totalCost": 21.707075299999982,
       "totalTokens": 24232883
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 358256,
+      "cacheReadTokens": 1371506,
+      "inputTokens": 1342,
+      "metadata": {
+        "agents": [
+          "claude"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreationTokens": 290744,
+          "cacheReadTokens": 978388,
+          "cost": 2.5862690000000006,
+          "inputTokens": 15,
+          "modelName": "claude-opus-5",
+          "outputTokens": 11194
+        },
+        {
+          "cacheCreationTokens": 67512,
+          "cacheReadTokens": 393118,
+          "cost": 0.31224760000000007,
+          "inputTokens": 1327,
+          "modelName": "claude-sonnet-5",
+          "outputTokens": 6219
+        }
+      ],
+      "modelsUsed": [
+        "claude-opus-5",
+        "claude-sonnet-5"
+      ],
+      "outputTokens": 17413,
+      "period": "2026-07-31",
+      "totalCost": 2.8985166000000007,
+      "totalTokens": 1748517
     }
   ],
   "totals": {
-    "cacheCreationTokens": 85536522,
-    "cacheReadTokens": 4769486406,
-    "inputTokens": 238793774,
-    "outputTokens": 22670557,
-    "totalCost": 5166.685589100001,
-    "totalTokens": 5116595232
+    "cacheCreationTokens": 85888009,
+    "cacheReadTokens": 4770839868,
+    "inputTokens": 238783687,
+    "outputTokens": 22683372,
+    "totalCost": 5169.29449335,
+    "totalTokens": 5118302909
   },
   "tools": [
     [
       "Claude Code",
-      2383.9830860500006
+      2386.6581793999994
     ],
     [
       "Codex",
-      2782.2143118500007
+      2782.1481227500008
     ],
     [
       "Gemini",
