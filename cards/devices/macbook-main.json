@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "macbook-main",
-  "updatedAt": "2026-10-17T00:37:43.011Z",
+  "updatedAt": "2026-10-18T00:37:27.408Z",
   "daily": [
     {
       "agent": "all",
@@ -20,7 +20,8 @@
           "cost": 0.41395725000000005,
           "inputTokens": 10,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 6122
+          "outputTokens": 6122,
+          "storedCost": 0.41395725000000005
         }
       ],
       "modelsUsed": [
@@ -77,7 +78,8 @@
           "cost": 0.6320925000000001,
           "inputTokens": 19,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 7814
+          "outputTokens": 7814,
+          "storedCost": 0.6320925000000001
         },
         {
           "cacheCreationTokens": 0,
@@ -114,7 +116,8 @@
           "cost": 3.4524767499999998,
           "inputTokens": 114,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 334
+          "outputTokens": 334,
+          "storedCost": 3.4524767499999998
         }
       ],
       "modelsUsed": [
@@ -142,7 +145,8 @@
           "cost": 0.46133275,
           "inputTokens": 21,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 56
+          "outputTokens": 56,
+          "storedCost": 0.46133275
         }
       ],
       "modelsUsed": [
@@ -170,7 +174,8 @@
           "cost": 0.11658375,
           "inputTokens": 3,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 9
+          "outputTokens": 9,
+          "storedCost": 0.11658375
         }
       ],
       "modelsUsed": [
@@ -227,7 +232,8 @@
           "cost": 1.1689789999999998,
           "inputTokens": 51,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 5802
+          "outputTokens": 5802,
+          "storedCost": 1.1689789999999998
         },
         {
           "cacheCreationTokens": 0,
@@ -265,7 +271,8 @@
           "cost": 0.47461,
           "inputTokens": 12,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 94
+          "outputTokens": 94,
+          "storedCost": 0.47461
         },
         {
           "cacheCreationTokens": 0,
@@ -302,7 +309,8 @@
           "cost": 0.47746,
           "inputTokens": 12,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 48
+          "outputTokens": 48,
+          "storedCost": 0.47746
         }
       ],
       "modelsUsed": [
@@ -339,7 +347,8 @@
           "cost": 0.37029500000000004,
           "inputTokens": 9,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 52
+          "outputTokens": 52,
+          "storedCost": 0.37029500000000004
         }
       ],
       "modelsUsed": [
@@ -368,7 +377,8 @@
           "cost": 0.9637450000000001,
           "inputTokens": 24,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 257
+          "outputTokens": 257,
+          "storedCost": 0.9637450000000001
         }
       ],
       "modelsUsed": [
@@ -396,7 +406,8 @@
           "cost": 0.23705500000000002,
           "inputTokens": 6,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 69
+          "outputTokens": 69,
+          "storedCost": 0.23705500000000002
         }
       ],
       "modelsUsed": [
@@ -424,7 +435,8 @@
           "cost": 1.6203359999999998,
           "inputTokens": 38,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 6871
+          "outputTokens": 6871,
+          "storedCost": 1.6203359999999998
         }
       ],
       "modelsUsed": [
@@ -452,7 +464,8 @@
           "cost": 3.40200525,
           "inputTokens": 85,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 23927
+          "outputTokens": 23927,
+          "storedCost": 3.40200525
         }
       ],
       "modelsUsed": [
@@ -480,7 +493,8 @@
           "cost": 0.1214275,
           "inputTokens": 3,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 163
+          "outputTokens": 163,
+          "storedCost": 0.1214275
         }
       ],
       "modelsUsed": [
@@ -508,7 +522,8 @@
           "cost": 0.844705,
           "inputTokens": 21,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 191
+          "outputTokens": 191,
+          "storedCost": 0.844705
         }
       ],
       "modelsUsed": [
@@ -536,7 +551,8 @@
           "cost": 0.236905,
           "inputTokens": 6,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 56
+          "outputTokens": 56,
+          "storedCost": 0.236905
         }
       ],
       "modelsUsed": [
@@ -564,7 +580,8 @@
           "cost": 0.6537625,
           "inputTokens": 15,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 120
+          "outputTokens": 120,
+          "storedCost": 0.6537625
         }
       ],
       "modelsUsed": [
@@ -592,7 +609,8 @@
           "cost": 1.5088025000000005,
           "inputTokens": 33,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 269
+          "outputTokens": 269,
+          "storedCost": 1.5088025000000005
         }
       ],
       "modelsUsed": [
@@ -620,7 +638,8 @@
           "cost": 2.298737,
           "inputTokens": 25,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 4490
+          "outputTokens": 4490,
+          "storedCost": 2.298737
         }
       ],
       "modelsUsed": [
@@ -648,7 +667,8 @@
           "cost": 1.2196112499999998,
           "inputTokens": 24,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 10802
+          "outputTokens": 10802,
+          "storedCost": 1.2196112499999998
         }
       ],
       "modelsUsed": [
@@ -676,7 +696,8 @@
           "cost": 15.431278500000001,
           "inputTokens": 116,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 57049
+          "outputTokens": 57049,
+          "storedCost": 15.431278500000001
         }
       ],
       "modelsUsed": [
@@ -704,7 +725,8 @@
           "cost": 0.72304,
           "inputTokens": 18,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 181
+          "outputTokens": 181,
+          "storedCost": 0.72304
         }
       ],
       "modelsUsed": [
@@ -732,7 +754,8 @@
           "cost": 0.1221025,
           "inputTokens": 3,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 174
+          "outputTokens": 174,
+          "storedCost": 0.1221025
         }
       ],
       "modelsUsed": [
@@ -760,7 +783,8 @@
           "cost": 0.6038375,
           "inputTokens": 15,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 123
+          "outputTokens": 123,
+          "storedCost": 0.6038375
         }
       ],
       "modelsUsed": [
@@ -789,7 +813,8 @@
           "cost": 2.45632775,
           "inputTokens": 41,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 9391
+          "outputTokens": 9391,
+          "storedCost": 2.45632775
         },
         {
           "cacheCreationTokens": 0,
@@ -827,7 +852,8 @@
           "cost": 0.6004375,
           "inputTokens": 15,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 147
+          "outputTokens": 147,
+          "storedCost": 0.6004375
         }
       ],
       "modelsUsed": [
@@ -855,7 +881,8 @@
           "cost": 1.5204904999999997,
           "inputTokens": 38,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 4743
+          "outputTokens": 4743,
+          "storedCost": 1.5204904999999997
         }
       ],
       "modelsUsed": [
@@ -883,7 +910,8 @@
           "cost": 0.24314249999999998,
           "inputTokens": 6,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 207
+          "outputTokens": 207,
+          "storedCost": 0.24314249999999998
         }
       ],
       "modelsUsed": [
@@ -928,7 +956,8 @@
           "cost": 0.12400250000000002,
           "inputTokens": 3,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 250
+          "outputTokens": 250,
+          "storedCost": 0.12400250000000002
         }
       ],
       "modelsUsed": [
@@ -975,7 +1004,8 @@
           "cost": 0.1179775,
           "inputTokens": 3,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 9
+          "outputTokens": 9,
+          "storedCost": 0.1179775
         }
       ],
       "modelsUsed": [
@@ -1022,7 +1052,8 @@
           "cost": 0.3655325,
           "inputTokens": 9,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 262
+          "outputTokens": 262,
+          "storedCost": 0.3655325
         }
       ],
       "modelsUsed": [
@@ -1061,7 +1092,8 @@
           "cost": 0.3648075,
           "inputTokens": 9,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 233
+          "outputTokens": 233,
+          "storedCost": 0.3648075
         }
       ],
       "modelsUsed": [
@@ -1107,7 +1139,8 @@
           "cost": 0.6022875,
           "inputTokens": 15,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 125
+          "outputTokens": 125,
+          "storedCost": 0.6022875
         }
       ],
       "modelsUsed": [
@@ -1154,7 +1187,8 @@
           "cost": 1.1966250000000003,
           "inputTokens": 26,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 11591
+          "outputTokens": 11591,
+          "storedCost": 1.1966250000000003
         }
       ],
       "modelsUsed": [
@@ -1193,7 +1227,8 @@
           "cost": 0.8499675,
           "inputTokens": 21,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 309
+          "outputTokens": 309,
+          "storedCost": 0.8499675
         }
       ],
       "modelsUsed": [
@@ -1231,7 +1266,8 @@
           "cost": 0.47901,
           "inputTokens": 12,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 128
+          "outputTokens": 128,
+          "storedCost": 0.47901
         }
       ],
       "modelsUsed": [
@@ -1269,7 +1305,8 @@
           "cost": 1.2251249999999998,
           "inputTokens": 30,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 272
+          "outputTokens": 272,
+          "storedCost": 1.2251249999999998
         }
       ],
       "modelsUsed": [
@@ -1307,7 +1344,8 @@
           "cost": 0.1224025,
           "inputTokens": 3,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 186
+          "outputTokens": 186,
+          "storedCost": 0.1224025
         }
       ],
       "modelsUsed": [
@@ -1336,7 +1374,8 @@
           "cost": 0.8477425000000001,
           "inputTokens": 21,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 203
+          "outputTokens": 203,
+          "storedCost": 0.8477425000000001
         }
       ],
       "modelsUsed": [
@@ -1364,7 +1403,8 @@
           "cost": 0.9379675000000001,
           "inputTokens": 21,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 164
+          "outputTokens": 164,
+          "storedCost": 0.9379675000000001
         }
       ],
       "modelsUsed": [
@@ -1401,7 +1441,8 @@
           "cost": 0.372095,
           "inputTokens": 9,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 302
+          "outputTokens": 302,
+          "storedCost": 0.372095
         }
       ],
       "modelsUsed": [
@@ -1431,7 +1472,8 @@
           "cost": 32.50014225000001,
           "inputTokens": 551,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 99008
+          "outputTokens": 99008,
+          "storedCost": 32.50014225000001
         },
         {
           "cacheCreationTokens": 0,
@@ -1478,7 +1520,8 @@
           "cost": 63.59029425000002,
           "inputTokens": 1195,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 266846
+          "outputTokens": 266846,
+          "storedCost": 63.59029425000002
         },
         {
           "cacheCreationTokens": 0,
@@ -1542,7 +1585,8 @@
           "cost": 1.82597825,
           "inputTokens": 40,
           "modelName": "[openclaw] claude-opus-4-6",
-          "outputTokens": 10742
+          "outputTokens": 10742,
+          "storedCost": 1.82597825
         }
       ],
       "modelsUsed": [
@@ -2588,7 +2632,8 @@
           "cost": 0,
           "inputTokens": 10890,
           "modelName": "[pi] omi-sonnet",
-          "outputTokens": 60
+          "outputTokens": 60,
+          "storedCost": 0
         }
       ],
       "modelsUsed": [
@@ -2635,7 +2680,8 @@
           "cost": 0,
           "inputTokens": 157897,
           "modelName": "[pi] omi-sonnet",
-          "outputTokens": 5606
+          "outputTokens": 5606,
+          "storedCost": 0
         }
       ],
       "modelsUsed": [
@@ -2675,7 +2721,8 @@
           "cost": 0,
           "inputTokens": 99282,
           "modelName": "[pi] omi-sonnet",
-          "outputTokens": 1150
+          "outputTokens": 1150,
+          "storedCost": 0
         }
       ],
       "modelsUsed": [
@@ -2722,7 +2769,8 @@
           "cost": 0,
           "inputTokens": 53066,
           "modelName": "[pi] omi-sonnet",
-          "outputTokens": 159
+          "outputTokens": 159,
+          "storedCost": 0
         }
       ],
       "modelsUsed": [
@@ -5402,9 +5450,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 3518939,
-      "cacheReadTokens": 56660193,
-      "inputTokens": 11359,
+      "cacheCreationTokens": 3234257,
+      "cacheReadTokens": 54910676,
+      "inputTokens": 11309,
       "metadata": {
         "agents": [
           "claude",
@@ -5421,20 +5469,20 @@
           "outputTokens": 162259
         },
         {
-          "cacheCreationTokens": 1278805,
-          "cacheReadTokens": 12755575,
-          "cost": 8.067845499999999,
-          "inputTokens": 9609,
-          "modelName": "claude-sonnet-5",
-          "outputTokens": 230050
-        },
-        {
           "cacheCreationTokens": 668341,
           "cacheReadTokens": 3419811,
           "cost": 7.241361749999999,
           "inputTokens": 150,
           "modelName": "claude-opus-5",
           "outputTokens": 54143
+        },
+        {
+          "cacheCreationTokens": 994123,
+          "cacheReadTokens": 11006058,
+          "cost": 6.855477099999998,
+          "inputTokens": 9559,
+          "modelName": "claude-sonnet-5",
+          "outputTokens": 214984
         }
       ],
       "modelsUsed": [
@@ -5442,10 +5490,10 @@
         "claude-opus-5",
         "claude-sonnet-5"
       ],
-      "outputTokens": 446452,
+      "outputTokens": 431386,
       "period": "2026-09-17",
-      "totalCost": 53.206771499999995,
-      "totalTokens": 60636943
+      "totalCost": 51.9944031,
+      "totalTokens": 58587628
     },
     {
       "agent": "all",
@@ -6782,40 +6830,117 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 56934,
-      "cacheReadTokens": 52178,
-      "inputTokens": 12,
+      "cacheCreationTokens": 1050111,
+      "cacheReadTokens": 42609343,
+      "inputTokens": 839095,
       "metadata": {
         "agents": [
+          "claude",
+          "codex",
           "hermes"
         ]
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 56934,
-          "cacheReadTokens": 52178,
-          "cost": 0.32095359999999995,
-          "inputTokens": 12,
+          "cacheCreationTokens": 434647,
+          "cacheReadTokens": 6573374,
+          "cost": 4.9883258,
+          "inputTokens": 3954,
           "modelName": "claude-opus-5-5",
-          "outputTokens": 1290
+          "outputTokens": 74230
+        },
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 20484096,
+          "cost": 4.3562856,
+          "inputTokens": 814708,
+          "modelName": "gpt-6.1-sol",
+          "outputTokens": 67846
+        },
+        {
+          "cacheCreationTokens": 382498,
+          "cacheReadTokens": 9013669,
+          "cost": 3.6646528000000003,
+          "inputTokens": 3852,
+          "modelName": "claude-sonnet-5",
+          "outputTokens": 89797
+        },
+        {
+          "cacheCreationTokens": 232966,
+          "cacheReadTokens": 6538204,
+          "cost": 1.6931773999999997,
+          "inputTokens": 16581,
+          "modelName": "claude-sonnet-5-5",
+          "outputTokens": 42378
         }
       ],
       "modelsUsed": [
-        "claude-opus-5-5"
+        "claude-opus-5-5",
+        "claude-sonnet-5",
+        "claude-sonnet-5-5",
+        "gpt-6.1-sol"
       ],
-      "outputTokens": 1290,
+      "outputTokens": 274251,
       "period": "2026-10-17",
-      "totalCost": 0.32095359999999995,
-      "totalTokens": 110414
+      "totalCost": 14.7024416,
+      "totalTokens": 44772800
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 89439,
+      "cacheReadTokens": 5288379,
+      "inputTokens": 11814989,
+      "metadata": {
+        "agents": [
+          "claude",
+          "codex",
+          "hermes"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 40.73552799999999,
+          "inputTokens": 6304142,
+          "modelName": "gpt-5.6-sol",
+          "outputTokens": 33914
+        },
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 5210112,
+          "cost": 22.089380199999994,
+          "inputTokens": 5510829,
+          "modelName": "gpt-6.1-sol",
+          "outputTokens": 22287
+        },
+        {
+          "cacheCreationTokens": 89439,
+          "cacheReadTokens": 78267,
+          "cost": 0.4988003999999999,
+          "inputTokens": 18,
+          "modelName": "claude-opus-5-5",
+          "outputTokens": 1794
+        }
+      ],
+      "modelsUsed": [
+        "claude-opus-5-5",
+        "gpt-5.6-sol",
+        "gpt-6.1-sol"
+      ],
+      "outputTokens": 57995,
+      "period": "2026-10-18",
+      "totalCost": 63.32370860000001,
+      "totalTokens": 17250802
     }
   ],
   "totals": {
-    "cacheCreationTokens": 273603825,
-    "cacheReadTokens": 7422987726,
-    "inputTokens": 242920726,
-    "outputTokens": 32867403,
-    "totalCost": 5675.769075275,
-    "totalTokens": 7972487653,
+    "cacheCreationTokens": 274401759,
+    "cacheReadTokens": 7469083753,
+    "inputTokens": 255574748,
+    "outputTokens": 33183293,
+    "totalCost": 5752.2619034750005,
+    "totalTokens": 8032351526,
     "unpricedModels": [
       "big-pickle"
     ]
@@ -6823,11 +6948,11 @@
   "tools": [
     [
       "Claude Code",
-      2844.5440474049997
+      2915.2870068049997
     ],
     [
       "Codex",
-      2830.7368366700007
+      2836.4867054700007
     ],
     [
       "Gemini",
